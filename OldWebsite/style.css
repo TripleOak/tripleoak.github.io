@@ -1,0 +1,184 @@
+:root {
+  --fade-duration: 0s;
+  --final-opacity: 1;
+  --over-color: #00E676;
+}
+
+#menu {
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  margin-top: 0.6rem;
+}
+
+
+#menu .logo {
+    float: left;
+    width: auto;
+    height: auto;
+    padding-left: 3rem;
+}
+
+#menu .nav-link {
+  color: wheat;
+  font-size: 1.2rem;
+  padding-right: 3rem;
+  cursor: pointer;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  opacity: 0.5;
+}
+
+#menu .nav-link:hover {
+  opacity: 1;
+}
+
+#menu .navbar-brand {
+  color: wheat;
+  font-size: 1.7rem;
+}
+
+#video {
+  background-size: cover;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%; 
+  margin: 0;
+  z-index: -2;
+}
+
+.overlay {
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: -1;
+    background: black;
+    opacity: 0.6;
+}
+
+.titles {
+    position: absolute;
+    color: wheat;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* margin is -0.5 * dimension */
+    text-align: center;
+}
+
+#main-title {
+  font-size: 5rem;
+}
+
+.fade-in {
+  animation: fadeIn ease var(--fade-duration);
+  -webkit-animation: fadeIn ease var(--fade-duration);
+  -moz-animation: fadeIn ease var(--fade-duration);
+  -o-animation: fadeIn ease var(--fade-duration);
+  -ms-animation: fadeIn ease var(--fade-duration);
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: var(--final-opacity);
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: var(--final-opacity);
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: var(--final-opacity);
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: var(--final-opacity);
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: var(--final-opacity);
+  }
+}
+
+/* .nav {
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    line-height: 65px;
+    text-align: center;
+}
+
+.nav div.logo {
+    float: left;
+    width: auto;
+    height: auto;
+    padding-left: 1rem;
+}
+
+.nav div.logo a {
+    text-decoration: none;
+    color: black;
+    font-size: 2.5rem;
+}
+
+.nav div.logo a:hover {
+    color: var(--over-color);
+}
+
+.nav div.main_list {
+    height: 65px;
+    float: right;
+}
+
+.nav div.main_list ul {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav div.main_list ul li {
+    width: auto;
+    height: 65px;
+    padding: 0;
+    padding-right: 3rem;
+}
+
+.nav div.main_list ul li a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 65px;
+    font-size: 2.4rem;
+}
+
+.nav div.main_list ul li a:hover {
+    color: var(--over-color);
+} */

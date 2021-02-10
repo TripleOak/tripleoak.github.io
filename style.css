@@ -1,0 +1,21 @@
+.content {
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('Assets/sample1.jpg');
+    height: 800px;
+}
+
+.logo {
+    margin-left: 7rem;
+}
+
+.navbar-nav {
+    margin-right: 4rem;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    margin-right: 3rem;
+}
+
+.navbar {
+    border-bottom: 1px solid gray;
+}
