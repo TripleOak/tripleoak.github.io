@@ -4,7 +4,7 @@
 }
 
 .navbar-nav .nav-link {
-    color: white;
+    color: #f0f0f0;
     margin-right: 3rem;
 }
 
@@ -55,7 +55,7 @@ section:first-of-type {
     background-color: #a88a56;
     text-transform: uppercase;
     color: #f0f0f0;
-    padding: 10px 40px
+    padding: 10px 40px;
 }
 
 footer {
@@ -64,4 +64,37 @@ footer {
     color: #f0f0f0;
     min-width: 100%;
     text-align: center;
+}
+
+.display-card {
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.171);
+    width: 60%;
+    height: 30rem;
+}
+
+.display-card .btn {
+    background-color: #a88a56;
+    text-transform: uppercase;
+    color: #f0f0f0;
+    padding: 10px 40px;
+}
+
+.display-card p {
+    color: rgb(83, 83, 83);
+}
+
+.card-content {
+    padding: 5rem 3rem;
+}
+
+.display-circle {
+    border:18px solid white;    
+    border-radius:50%;
+    width: 10rem;
+    height: 10rem;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    background: url("Assets/building.png");
+    background-size: cover;
 }
