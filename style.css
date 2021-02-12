@@ -69,7 +69,7 @@ footer {
 .display-card {
     text-align: center;
     background-color: rgba(128, 128, 128, 0.171);
-    width: 60%;
+    width: 70%;
     height: 30rem;
 }
 
@@ -97,4 +97,24 @@ footer {
     -webkit-border-radius:50%;
     background: url("Assets/building.png");
     background-size: cover;
+}
+
+#about-image {
+    width: 70%;
+}
+
+#about-text p {
+    color: rgb(83, 83, 83)
+}
+
+#partners {
+    text-align: center;
+}
+
+#partners h1 {
+    padding-bottom: 3rem;
+}
+
+#partners img{
+    width: 10rem;
 }
