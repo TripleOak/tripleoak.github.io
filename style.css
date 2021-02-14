@@ -1,3 +1,6 @@
+p {
+    font-size: large;
+}
 
 .navbar-nav {
     margin-right: 4rem;
@@ -48,7 +51,7 @@ section:first-of-type {
 }
 
 #video .content p {
-    text-align: justify;
+    text-align: center;
 }
 
 #video .content .btn {
@@ -68,9 +71,11 @@ footer {
 
 .display-card {
     text-align: center;
-    background-color: rgba(128, 128, 128, 0.171);
+    background-color: rgb(233, 233, 233);
     width: 70%;
-    height: 30rem;
+    height: 27rem;
+    padding: 5rem 3rem;
+    position: relative;
 }
 
 .display-card .btn {
@@ -80,27 +85,34 @@ footer {
     padding: 10px 40px;
 }
 
-.display-card p {
-    color: rgb(83, 83, 83);
+.display-card h1 {
+    padding-top: 1.5rem;
 }
 
-.card-content {
-    padding: 5rem 3rem;
+.display-card p {
+    color: rgb(83, 83, 83);
+    padding-bottom: 1rem;
 }
 
 .display-circle {
-    border:18px solid white;    
+    border:1.3rem solid white;    
     border-radius:50%;
     width: 10rem;
     height: 10rem;
     -moz-border-radius:50%;
     -webkit-border-radius:50%;
     background: url("Assets/building.png");
+    background-color: rgb(233, 233, 233);
     background-size: cover;
+    position: absolute;
+    top: 0%;
+    transform: translateX(50%) translateY(-50%);
 }
+
 
 #about-image {
     width: 70%;
+    border-radius: 5px;
 }
 
 #about-text p {
