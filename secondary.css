@@ -44,18 +44,19 @@ section:first-of-type {
     margin: 0;
     z-index: -1;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 
 #video .content {
     width: 750px;
     color: #f0f0f0;
-    text-align: center;
+    text-align: left;
+    padding-left: 10rem;
 }
 
 #video .content p {
-    text-align: center;
+    text-align: left;
 }
 
 #video .content .btn {
@@ -71,68 +72,6 @@ footer {
     color: #f0f0f0;
     min-width: 100%;
     text-align: center;
-}
-
-.display-card {
-    text-align: center;
-    background-color: rgb(233, 233, 233);
-    width: 70%;
-    height: 27rem;
-    padding: 5rem 3rem;
-    position: relative;
-}
-
-.display-card .btn {
-    background-color: #a88a56;
-    text-transform: uppercase;
-    color: #f0f0f0;
-    padding: 10px 40px;
-}
-
-.display-card h1 {
-    padding-top: 1.5rem;
-}
-
-.display-card p {
-    color: rgb(83, 83, 83);
-    padding-bottom: 1rem;
-}
-
-.display-circle {
-    border:1.3rem solid white;    
-    border-radius:50%;
-    width: 10rem;
-    height: 10rem;
-    -moz-border-radius:50%;
-    -webkit-border-radius:50%;
-    background: url("Assets/building.png");
-    background-color: rgb(233, 233, 233);
-    background-size: cover;
-    position: absolute;
-    top: 0%;
-    transform: translateX(50%) translateY(-50%);
-}
-
-
-#about-image {
-    width: 70%;
-    border-radius: 5px;
-}
-
-#about-text p {
-    color: rgb(83, 83, 83)
-}
-
-#partners {
-    text-align: center;
-}
-
-#partners h1 {
-    padding-bottom: 3rem;
-}
-
-#partners img{
-    width: 10rem;
 }
 
 #footer-buttons {
