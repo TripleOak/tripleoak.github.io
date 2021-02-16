@@ -14,6 +14,9 @@ p {
 .navbar {
     border-bottom: 1px solid gray;
     z-index: 1;
+    -webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .logo {
@@ -34,7 +37,7 @@ section:first-of-type {
 }
 
 #video {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('Assets/sample1.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
     background-size: cover;
     position: absolute;
     right: 0;
@@ -65,12 +68,30 @@ section:first-of-type {
     padding: 10px 40px;
 }
 
-footer {
-    background-color: #16202a;
-    padding: 50px;
-    color: #f0f0f0;
+#landing-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/sample1.jpg');
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    bottom: 0;
     min-width: 100%;
-    text-align: center;
+    min-height: 100%; 
+    margin: 0;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#landing-image .content {
+    width: 750px;
+    color: #f0f0f0;
+    text-align: left;
+    padding-left: 10rem;
+}
+
+#landing-image .content p {
+    text-align: left;
 }
 
 .display-card {
@@ -105,14 +126,16 @@ footer {
     height: 10rem;
     -moz-border-radius:50%;
     -webkit-border-radius:50%;
-    background: url("Assets/building.png");
     background-color: rgb(233, 233, 233);
-    background-size: cover;
     position: absolute;
     top: 0%;
     transform: translateX(50%) translateY(-50%);
 }
 
+.display-circle img {
+    max-width: 60%;
+    transform: translateY(35%);
+}
 
 #about-image {
     width: 70%;
@@ -133,6 +156,14 @@ footer {
 
 #partners img{
     width: 10rem;
+}
+
+footer {
+    background-color: #16202a;
+    padding: 50px;
+    color: #f0f0f0;
+    min-width: 100%;
+    text-align: center;
 }
 
 #footer-buttons {
