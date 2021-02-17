@@ -79,7 +79,7 @@ section:first-of-type {
     margin: 0;
     z-index: -1;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 
@@ -91,13 +91,20 @@ section:first-of-type {
 }
 
 #landing-image .content p {
-    text-align: left;
+    text-align: justify;
+}
+
+#landing-image .content .btn {
+    background-color: #a88a56;
+    text-transform: uppercase;
+    color: #f0f0f0;
+    padding: 10px 40px;
 }
 
 .display-card {
     text-align: center;
     background-color: rgb(233, 233, 233);
-    width: 70%;
+    width: 500px;
     height: 27rem;
     padding: 5rem 3rem;
     position: relative;
@@ -116,6 +123,7 @@ section:first-of-type {
 
 .display-card p {
     color: rgb(83, 83, 83);
+    text-align: justify;
     padding-bottom: 1rem;
 }
 
@@ -129,12 +137,19 @@ section:first-of-type {
     background-color: rgb(233, 233, 233);
     position: absolute;
     top: 0%;
-    transform: translateX(50%) translateY(-50%);
+    transform: translateY(-50%);
+    left: 50%;
+    margin-left: -5rem;
 }
 
 .display-circle img {
     max-width: 60%;
     transform: translateY(35%);
+    filter: invert(68%) sepia(17%) saturate(981%) hue-rotate(359deg) brightness(80%) contrast(84%);
+}
+
+#information .col-sm:first-of-type .card-wrapper{
+    padding-bottom: 10rem;
 }
 
 #about-image {
@@ -142,8 +157,13 @@ section:first-of-type {
     border-radius: 5px;
 }
 
+#about-text {
+    padding-top: 2rem;
+}
+
 #about-text p {
-    color: rgb(83, 83, 83)
+    color: rgb(83, 83, 83);
+    text-align: justify;
 }
 
 #partners {
