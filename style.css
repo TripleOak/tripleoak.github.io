@@ -57,8 +57,8 @@ section:first-of-type {
     text-align: center;
 }
 
-#video .content p {
-    text-align: center;
+#video .content h1 {
+    margin-bottom: 3rem;
 }
 
 #video .content .btn {
@@ -105,7 +105,7 @@ section:first-of-type {
     text-align: center;
     background-color: rgb(233, 233, 233);
     width: 500px;
-    height: 27rem;
+    //height: 17rem;
     padding: 5rem 3rem;
     position: relative;
 }
@@ -148,8 +148,12 @@ section:first-of-type {
     filter: invert(68%) sepia(17%) saturate(981%) hue-rotate(359deg) brightness(80%) contrast(84%);
 }
 
-#information .col-sm:first-of-type .card-wrapper{
-    padding-bottom: 10rem;
+#about {
+    padding-bottom: 5rem;
+}
+
+#information {
+    padding-bottom: 5rem;
 }
 
 #about-image {
@@ -187,6 +191,7 @@ footer {
 }
 
 #footer-buttons {
+    margin-top: 50px;
     padding: 0 30%;
 }
 
