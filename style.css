@@ -61,6 +61,10 @@ section:first-of-type {
     margin-bottom: 3rem;
 }
 
+#vide .content p {
+    text-align: center;
+}
+
 #video .content .btn {
     background-color: #a88a56;
     text-transform: uppercase;
