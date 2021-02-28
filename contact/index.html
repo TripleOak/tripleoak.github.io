@@ -27,10 +27,10 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
                     <a class="nav-link" href="../index.html">Home</a>
-                    <a class="nav-link selected" href="#">Investors</a>
+                    <a class="nav-link" href="../investors/index.html">Investors</a>
                     <a class="nav-link" href="../companies/index.html">Companies</a>
                     <a class="nav-link" href="https://medium.com/@tripleoak" target="blank">Blog</a>
-                    <a class="nav-link" href="../contact/index.html">Contact</a>
+                    <a class="nav-link selected" href="#">Contact</a>
                 </div>
             </div>
         </div>
@@ -39,14 +39,26 @@
     <!-- Sections -->
     <section style="margin: 0; z-index: 0;">
         <div id="landing-image" class="container">
-            <div class="content">
-                <h1>Investors</h1>
-                <p>Our team sources the world’s best early-stage startup companies. We are always on the lookout for
-                    likeminded partners and companies who want to invest with us. <br>
+            <div class="row content">
+                <div class="col">
+                    <form action="https://formspree.io/f/xdozyjle" method="POST">
+                        <div class="mb-3">
+                            <label for="emailInput" class="form-label">Your email:</label>
+                            <input type="text" name="_replyto" class="form-control" id="emailIput">
+                        </div>
+                        <div class="mb-3">
+                            <label for="messageInput" class="form-label">Your message:</label>
+                            <textarea name="message" id="messageInput" cols="30"></textarea>
+                        </div>
 
-                    Feel free to contact us, so we discuss our options. We are looking forward to help build innovative
-                    companies together. </p>
-                <button type="button" class="btn custom-btn">Get Started</button>
+                        <button type="submit" class="btn custom-btn">Send</button>
+                    </form>
+                </div>
+                <div class="col">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12572.773625812528!2d-8.70337185872436!3d38.01927037544928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1bc7a3170828ef%3A0x766d232c48abf914!2s7540-181%20Santiago%20do%20Cac%C3%A9m!5e0!3m2!1sen!2spt!4v1614543781540!5m2!1sen!2spt"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
             </div>
         </div>
     </section>
@@ -64,7 +76,7 @@
                 <a href="../index.html">Home</a>
             </div>
             <div class="col-sm">
-                <a href="#">Investors</a>
+                <a href="../investors/index.html">Investors</a>
             </div>
             <div class="col-sm">
                 <a href="../companies/index.html">Companies</a>
@@ -73,7 +85,7 @@
                 <a href="https://medium.com/@tripleoak" target="blank">Blog</a>
             </div>
             <div class="col-sm">
-                <a href="../contact/index.html">Contact</a>
+                <a href="#">Contact</a>
             </div>
         </div>
         <div class="row" id="info">
