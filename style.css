@@ -94,6 +94,29 @@ section:first-of-type {
     padding-left: 10rem;
 }
 
+#landing-image form {
+    color: #f0f0f0;
+    padding-left: 10rem;
+    padding-top: 3rem;
+    text-align: left;
+}
+
+label {display:block;}
+textarea { display:block;}
+
+#landing-image form .btn{
+    background-color: #a88a56;
+    text-transform: uppercase;
+    color: #f0f0f0;
+    padding: 10px 40px;
+}
+
+#landing-image form textarea {
+    width: 100%;
+    height: 200px;
+    resize: none;
+}
+
 #landing-image .content p {
     text-align: justify;
 }
