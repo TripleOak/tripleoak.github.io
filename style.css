@@ -58,7 +58,7 @@ section:first-of-type {
 }
 
 #video .content h1 {
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 #vide .content p {
@@ -72,9 +72,22 @@ section:first-of-type {
     padding: 10px 40px;
 }
 
-#landing-image {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/sample1.jpg');
+#companies {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/companies.jpg');
     background-size: cover;
+}
+
+#contact {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/contacts.jpg');
+    background-size: cover;
+}
+
+#investors {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/investors.jpg');
+    background-size: cover;
+}
+
+.landing-image {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -87,14 +100,15 @@ section:first-of-type {
     align-items: center;
 }
 
-#landing-image .content {
+
+.landing-image .content {
     width: 750px;
     color: #f0f0f0;
     text-align: left;
     padding-left: 10rem;
 }
 
-#landing-image form {
+.landing-image form {
     color: #f0f0f0;
     padding-left: 10rem;
     padding-top: 3rem;
@@ -104,24 +118,24 @@ section:first-of-type {
 label {display:block;}
 textarea { display:block;}
 
-#landing-image form .btn{
+.landing-image form .btn{
     background-color: #a88a56;
     text-transform: uppercase;
     color: #f0f0f0;
     padding: 10px 40px;
 }
 
-#landing-image form textarea {
+.landing-image form textarea {
     width: 100%;
     height: 200px;
     resize: none;
 }
 
-#landing-image .content p {
+.landing-image .content p {
     text-align: justify;
 }
 
-#landing-image .content .btn {
+.landing-image .content .btn {
     background-color: #a88a56;
     text-transform: uppercase;
     color: #f0f0f0;
